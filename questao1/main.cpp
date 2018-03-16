@@ -18,7 +18,7 @@ int main()
         int aux = (int)user_base/2;
 
         // verifica se o numero é maior que 2 e se é impar
-        if (user_base > 2 && user_base%2 != 0 && user_tronco_a >=1 && user_tronco_a  <= (user_base/2)){
+        if (user_base > 2 && user_base%2 != 0 && user_tronco_a >=1 && user_tronco_l  <= (user_base/2) && user_tronco_l%2!=0){
             // for para criar a quantidade de linhas
             // equivalente ao user_base
             for (int i = 0; i < (user_base/2)+1; i ++){
